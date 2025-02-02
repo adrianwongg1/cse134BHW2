@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -25,9 +25,10 @@
     <header>
         <hgroup>
             <h1>Adrian Wong's Personal Portfolio Website</h1>
-            <h2>Or the Second part of this website.</h2>
-          </hgroup>
+        </hgroup>
+          
     </header>
+
     <nav>
         <ul>
             <li><a href="#about-me">About Me</a></li>
@@ -36,6 +37,8 @@
             <li><a href="index.html">CLICK HERE to go back to Regular Page</a></li>
         </ul>
     </nav>
+
+
 
     <label for="cardropdown">Choose car from dropdown:</label>
     <select id="cardropdown">
@@ -51,29 +54,29 @@
         </optgroup>
     </select>
     <br>
-    <br/>
+    <br>
 
     <label for="candy-dropdown">Choose candy from dropdown:</label>
-    <input list="candydropdown" id="candy-dropdown" name="candy-dropdown" />
+    <input list="candydropdown" id="candy-dropdown" name="candy-dropdown">
     <datalist id="candydropdown">
         <option value="Sour Patch"></option>
         <option value="Twix"></option>
         <option value="Skittles"></option>
     </datalist>
 
-    <br/><br/>
-    
+    <br><br>
+
     <form>
         <fieldset>
           <legend>Choose your favorite flavor</legend>
       
-          <input type="radio" id="vanilla" name="flavor" value="V" />
-          <label for="kraken">Vanilla</label><br/>
+          <input type="radio" id="vanilla" name="flavor" value="V">
+          <label for="vanilla">Vanilla</label><br>
       
-          <input type="radio" id="chocolate" name="flavor" value="C" />
-          <label for="chocolate">Chocolate</label><br/>
+          <input type="radio" id="chocolate" name="flavor" value="C">
+          <label for="chocolate">Chocolate</label><br>
       
-          <input type="radio" id="mint" name="flavor" value="M" />
+          <input type="radio" id="mint" name="flavor" value="M">
           <label for="mint">Mint</label>
         </fieldset>
       </form>
@@ -81,10 +84,11 @@
       <p>This is a piece of <code>code</code> in a paragraph.</p>
       <br>
       <br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Laboriosam magni nemo deleniti <aside>dolor odit, laudantium ipsa modi corrupti 
-            molestiae officiis delectus!</aside>  Obcaecati veniam dolore tempora labore 
-        perspiciatis eos maiores vero.</p>
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Laboriosam magni nemo deleniti <aside>dolor odit, laudantium ipsa modi corrupti 
+    molestiae officiis delectus!</aside>  
+    Obcaecati veniam dolore tempora labore perspiciatis eos maiores vero.
 
         
     <pre>
@@ -93,8 +97,8 @@
 
     <p>The following is the picture tag in use.</p>
     <picture>
-        <source srcset="adrian profile pic.jpg" media="(min-width: 400px)" />
-        <img src="adrian profile pic.jpg" width="200" height="300"/>
+        <source srcset="adrian-profile-pic.jpg" media="(min-width: 400px)">
+        <img src="adrian-profile-pic.jpg" alt="Profile Picture" width="200" height="300">
     </picture>
 
     <br>
@@ -106,18 +110,18 @@
 
     <figure>
         <figcaption>Listen to birds:</figcaption>
-        <audio controls src="birds chriping.mp3"></audio>
+        <audio controls src="birds-chriping.mp3"></audio>
       </figure>
 
     <br>
     <br>
     <br>
     <br>
-
+    
     <p>Here is a video of birds flying.</p>
     <video controls width="250">
       
-        <source src="birds flying.mp4" type="video/mp4" />
+        <source src="birds-flying.mp4" type="video/mp4">
 
       </video>
     
@@ -153,43 +157,31 @@
     </template>
 
     <table>
-        <caption>
-            This is a table
-        </caption>
-        <colgroup>
-            <col span="2" class="people"/>
-            <col span="2" class="hobby"/>
-            <col span="2" class="age"/>
-        </colgroup>
-
         <tr>
-            
-        <th scope="col">people</th>
-        <th scope="col">hobby</th>
-        <th scope="col">Age</th>
-        </tr>
-
-        <tr>
-        <th scope="row">Harry</th>
-        <td>basketball</td>
-        <td>12</td>
+          <th>Name</th>
+          <th>ID</th>
+          <th>Occupation</th>
+          <th>Age</th>
         </tr>
         <tr>
-        <th scope="row">Mark</th>
-        <td>Baseball</td>
-        <td>45</td>
+          <th>John Son</th>
+          <td>1213412</td>
+          <td>Mechanic</td>
+          <td>42</td>
         </tr>
         <tr>
-        <th scope="row">Monty</th>
-        <td>Running</td>
-        <td>30</td>
+          <th>Paul Yin</th>
+          <td>123452</td>
+          <td>Businessman</td>
+          <td>37</td>
         </tr>
         <tr>
-        <th scope="row">Jason</th>
-        <td>Dancing</td>
-        <td>24</td>
+          <th>Max Bearen</th>
+          <td>0129321</td>
+          <td>Welder</td>
+          <td>24</td>
         </tr>
-    </table>
+      </table>
       
     <br>
     <br>
@@ -199,7 +191,7 @@
     <br>
 
     <figure>
-        <img src="heart anatomy.jpg" alt="Heart Anatomy" width="300" height="300" />
+        <img src="heart-anatomy.jpg" alt="Heart Anatomy" width="300" height="300">
         <figcaption>Fig 1: Heart Anatomy</figcaption>
       </figure>
 
@@ -218,17 +210,6 @@
     <p>—Adrian Wong, <cite>The Mind of Adrian</cite></p>
     
     </div>
-
-    <br>
-    <br><br>
-    <br>
-    
-    <search>
-        <form>
-            <input type="search" id="movie" name="q" />
-            <button type="submit">Search</button>
-        </form>
-    </search>
 
     <br>
     <br><br>
@@ -286,14 +267,8 @@
     <br>
     <br><br>
     <br>
-
-    <noscript>You should see this when JavaScript doesn't work!</noscript>
-
-
-    <br>
-    <br><br>
-    <br>
-
+    
     
 </body>
+  
 </html>
