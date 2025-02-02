@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adrian's Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <hgroup>
+            <h1>Adrian Wong's Personal Portfolio Website</h1>
+            <h2>Or the Second part of this website.</h2>
+          </hgroup>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            <li><a href="index.html">CLICK HERE to go back to Regular Page</a></li>
+        </ul>
+    </nav>
+
+    <label for="cardropdown">Choose car from dropdown:</label>
+    <select id="cardropdown">
+        <optgroup label="Japanese Cars">
+            <option>Honda</option>
+            <option>Toyota</option>
+            <option>Nissan</option>
+        </optgroup>
+        <optgroup label="German Cars">
+            <option>Mercedes Benz</option>
+            <option>BMW</option>
+            <option>Volkswagen</option>
+        </optgroup>
+    </select>
+    <br>
+    <br/>
+
+    <label for="candy-dropdown">Choose candy from dropdown:</label>
+    <input list="candydropdown" id="candy-dropdown" name="candy-dropdown" />
+    <datalist id="candydropdown">
+        <option value="Sour Patch"></option>
+        <option value="Twix"></option>
+        <option value="Skittles"></option>
+    </datalist>
+
+    <br/><br/>
+    
+    <form>
+        <fieldset>
+          <legend>Choose your favorite flavor</legend>
+      
+          <input type="radio" id="vanilla" name="flavor" value="V" />
+          <label for="kraken">Vanilla</label><br/>
+      
+          <input type="radio" id="chocolate" name="flavor" value="C" />
+          <label for="chocolate">Chocolate</label><br/>
+      
+          <input type="radio" id="mint" name="flavor" value="M" />
+          <label for="mint">Mint</label>
+        </fieldset>
+      </form>
+      
+      <p>This is a piece of <code>code</code> in a paragraph.</p>
+      <br>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Laboriosam magni nemo deleniti <aside>dolor odit, laudantium ipsa modi corrupti 
+            molestiae officiis delectus!</aside>  Obcaecati veniam dolore tempora labore 
+        perspiciatis eos maiores vero.</p>
+
+        
+    <pre>
+        This is pre                                  formatted text.
+    </pre>
+
+    <p>The following is the picture tag in use.</p>
+    <picture>
+        <source srcset="adrian profile pic.jpg" media="(min-width: 400px)" />
+        <img src="adrian profile pic.jpg" width="200" height="300"/>
+    </picture>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <figure>
+        <figcaption>Listen to birds:</figcaption>
+        <audio controls src="birds chriping.mp3"></audio>
+      </figure>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>Here is a video of birds flying.</p>
+    <video controls width="250">
+      
+        <source src="birds flying.mp4" type="video/mp4" />
+
+      </video>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <details>
+        <summary>Details</summary>
+        This is a bird.
+        This can be a bird.
+        This are a bird.
+    </details>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      
+    <button type="button">This is a button</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+      
+    <template>
+        <h2>Picture</h2>
+        <img src="adrian profile pic.jpg" width="214" height="204">
+    </template>
+
+    <table>
+        <caption>
+            This is a table
+        </caption>
+        <colgroup>
+            <col span="2" class="people"/>
+            <col span="2" class="hobby"/>
+            <col span="2" class="age"/>
+        </colgroup>
+
+        <tr>
+            
+        <th scope="col">people</th>
+        <th scope="col">hobby</th>
+        <th scope="col">Age</th>
+        </tr>
+
+        <tr>
+        <th scope="row">Harry</th>
+        <td>basketball</td>
+        <td>12</td>
+        </tr>
+        <tr>
+        <th scope="row">Mark</th>
+        <td>Baseball</td>
+        <td>45</td>
+        </tr>
+        <tr>
+        <th scope="row">Monty</th>
+        <td>Running</td>
+        <td>30</td>
+        </tr>
+        <tr>
+        <th scope="row">Jason</th>
+        <td>Dancing</td>
+        <td>24</td>
+        </tr>
+    </table>
+      
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <figure>
+        <img src="heart anatomy.jpg" alt="Heart Anatomy" width="300" height="300" />
+        <figcaption>Fig 1: Heart Anatomy</figcaption>
+      </figure>
+
+    <br>
+    <br>
+    <br>
+    <ins>This text has been inserted</ins>
+    <br>
+    <br>
+    
+    <div>
+    <blockquote>
+        <p>Words are like words. <del>Some</del> Words are more wordy than others.
+        Words are inspirational and some are just words.</p>
+    </blockquote>
+    <p>—Adrian Wong, <cite>The Mind of Adrian</cite></p>
+    
+    </div>
+
+    <br>
+    <br><br>
+    <br>
+    
+    <search>
+        <form>
+            <input type="search" id="movie" name="q" />
+            <button type="submit">Search</button>
+        </form>
+    </search>
+
+    <br>
+    <br><br>
+    <br>
+
+    <dialog open>
+        <p>Hello there, I am you and you are me!</p>
+    </dialog>
+
+    <br>
+    <br><br>
+    <br>
+
+    <p>Types of Cars:</p>
+
+    <dl>
+    <dt>Sedan</dt>
+    <dd>A lower, 4 door car.</dd>
+
+    <dt>Truck</dt>
+    <dd>A heavier duty vehicle.</dd>
+
+    <dt>Plane</dt>
+    <dd>Definitely not a car.</dd>
+    </dl>
+  
+
+    <br>
+    <br><br>
+    <br>
+
+    <br>
+    <br><br>
+    <br>
+
+    <p>
+        A <abbr>SUV</abbr> (Sports Utility Vehicle) is a taller version
+        of a sedan.
+    </p>
+
+
+    <br>
+    <br><br>
+    <br>
+
+    <p>A <dfn id="def-plane">plane</dfn> is metal tube with engines on it that flies in the air.</p>
+
+    <br>
+    <br><br>
+    <br>
+
+    <p>Please press <kbd>CMD</kbd> + <kbd>R</kbd> or
+        <kbd>CTRL</kbd> + <kbd>R</kbd>  to refresh a page.</p>
+
+    <br>
+    <br><br>
+    <br>
+
+    <noscript>You should see this when JavaScript doesn't work!</noscript>
+
+
+    <br>
+    <br><br>
+    <br>
+
+    
+</body>
+</html>

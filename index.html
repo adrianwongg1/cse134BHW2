@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Adrian's Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 
     <style>
         h1 {
@@ -18,7 +19,9 @@
 
 <body>
     <header>
+        
         <h1>Adrian Wong's Personal Portfolio Website</h1>
+
     </header>
 
     <nav>
@@ -26,6 +29,7 @@
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact-me">Contact Me</a></li>
+            <li><a href="index2.html">Required Tags page</a></li>
         </ul>
     </nav>
 
@@ -34,12 +38,10 @@
             <h2>About Me</h2>
             <img src="adrian profile pic.jpg" width="200" height="300">
            
-            <aside>
-            <p>My name is Adrian Wong. I am a Fourth Year Mathematics-Computer Science major.
-                
             
+            <p>My name is Adrian Wong. I am a Fourth Year Mathematics-Computer Science major.
+                I am aspiring to be a Full Stack Software Engineer.
             </p>
-            </aside>
 
             <br>
             <h3>Resume</h3>
@@ -54,21 +56,21 @@
 
             <h3>Project 1 PantryPal</h3>
             <ol>
-                <li>Developed a full-stack JavaFX GUI application with a MongoDB backend, integrated with ChatGPT and Whisper
+                <li><b><i>Developed</i></b> a full-stack <span class="technology">JavaFX</span> GUI application with a <span class="technology">MongoDB</span> backend, integrated with ChatGPT and Whisper
                     APIs to generate food recipes from transcribed audio input, enabling hands-free meal planning</li>
-                <li>Wrote 100+ unit and integration tests, resulting in catching and fixing of 40+ bugs prior to production, significantly
+                <li><b><i>Wrote</i></b> 100+ unit and integration tests, resulting in catching and fixing of 40+ bugs prior to production, significantly
                     improving application stability and performance</li>
-                <li>Enhanced DALL-E food image generation accuracy by 85% by incorporating KeyBERT for keyword extraction,
+                <li><b><i>Enhanced</i></b> DALL-E food image generation accuracy by 85% by incorporating KeyBERT for keyword extraction,
                     leading to more relevant and visually accurate results</li>
-                <li>Led Agile Development team of 5 by managing daily stand-ups, conflict resolution, and task tracking using GitHub
+                <li><b><i>Led</i></b> Agile Development team of 5 by managing daily stand-ups, conflict resolution, and task tracking using GitHub
                     Actions and Projects to meet project milestone deadlines successfully</li>
             </ol>
-            <a href="https://github.com/adrianwongg1/Pantry_Pal">PantryPal</a>
+            <a href="https://github.com/adrianwongg1/Pantry_Pal">PantryPal GitHub</a>
             
             <hr>
             
             <h3>Project 2 Personal Portfolio Website</h3>
-            <a href="https://github.com/adrianwongg1/cse134BHW2">Personal Website</a>
+            <a href="https://github.com/adrianwongg1/cse134BHW2">Personal Website GitHub</a>
             
 
             <hr>
@@ -76,40 +78,48 @@
             <h3>Project 3 (Data Analysis Project)</h3>
             
             <ul>
-                <li>Developed a full-stack JavaFX GUI application with a MongoDB backend, integrated with ChatGPT and Whisper
-                    APIs to generate food recipes from transcribed audio input, enabling hands-free meal planning</li>
-                <li>Wrote 100+ unit and integration tests, resulting in catching and fixing of 40+ bugs prior to production, significantly
-                    improving application stability and performance</li>
-                <li> Enhanced DALL-E food image generation accuracy by 85% by incorporating KeyBERT for keyword extraction,
-                    leading to more relevant and visually accurate results</li>
-                <li> Led Agile Development team of 5 by managing daily stand-ups, conflict resolution, and task tracking using GitHub
-                    Actions and Projects to meet project milestone deadlines successfully</li>
+                <li><strong><em>Performed</em></strong> comprehensive exploratory data analysis (EDA) on 100,000+ rows of Super Bowl Halftime Show data,
+                    revealing minimal correlation between the popularity of performers and advertiser stock prices</li>
+                <li><strong><em>Developed</em></strong> linear regression models with <span class="technology">Python</span> to analyze correlations between artist popularity, ad exposure, and
+                    financial performance of advertising companies before and after the show, achieving 90% accuracy in stock price
+                    predictions</li>
+                <li><strong><em>Utilized</em></strong> Python libraries like <span class="technology">Pandas, NumPy, Seaborn, and Matplotlib</span> to isolate key variables and provide statistical
+                    visualization against show popularity, improving data accuracy and analysis efficiency by 80%</li>
+                <li><strong><em>Led</em></strong> collaboration for a team of 5 using an agile workflow, distributing tasks such as data gathering, hypothesis
+                    formulation, analysis, and revisions to ensure timely delivery</li>
             </ul>
-            <a href="https://github.com/adrianwongg1/Data-Analysis-Project">Data Analysis Project</a>
+            <a href="https://github.com/adrianwongg1/Data-Analysis-Project">Data Analysis Project GitHub</a>
         </section>
         
     
-        <section id="contact-me">
+        <div id="contact-me">
             <h2>Contact Me</h2>
-            
+        
             <form>
                 <label for="fname">First name:</label>
                 <input type="text" id="fname" name="fname"><br><br>
+        
                 <label for="lname">Last name:</label>
                 <input type="text" id="lname" name="lname"><br><br>
+        
                 <label for="email">Email Address:</label>
                 <input type="text" id="email" name="email"><br><br>
+        
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments"></textarea><br><br>
+        
                 <input type="submit" value="Submit">
             </form>
-
-        </section>
+        </div>
+        
 
     </main>
     
     <footer>
         <p><b>Created by Adrian Wong</b></p>
-        <br>
-
+        <address>
+            <a href="mailto:adw004@ucsd.edu">adw004@ucsd.edu</a><br />
+          </address>
     </footer>
 
 </body>
